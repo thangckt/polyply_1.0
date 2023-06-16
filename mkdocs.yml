@@ -1,4 +1,4 @@
-site_name: Thang
+site_name: polyply
 site_author: thangckt
 # repo_url: ""
 # edit_uri: "https://github.com/thangckt"
@@ -55,8 +55,8 @@ theme:
 
 
 ## Customization
-# extra:
-#   generator: false
+extra:
+  generator: false
 #   analytics:
 #     provider: google
 #     property: G-QM7DWGY7ZT
