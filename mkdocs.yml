@@ -139,16 +139,16 @@ plugins:
         python:
           options:
             members_order: 'source'
-            docstring_style: 'rst'     # sphinx | google | numpy | rst | none
+            docstring_style: 'numpy'     # sphinx | google | numpy | rst | none
             show_source: true
             show_root_heading: true
             show_category_heading: false
             show_signature_annotations: true
             # docstring_section_style: list
           # path: [.]
-          # import:
-          #   - https://docs.python.org/3/objects.inv
-          #   - https://mkdocstrings.github.io/autorefs/objects.inv
+          import:
+            - https://docs.python.org/3/objects.inv
+            - https://mkdocstrings.github.io/autorefs/objects.inv
 
 
 
