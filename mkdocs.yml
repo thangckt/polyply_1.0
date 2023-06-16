@@ -139,8 +139,8 @@ plugins:
         python:
           options:
             members_order: 'source'
-            docstring_style: 'google'
-            show_source: false
+            docstring_style: 'numpy'
+            show_source: true
             show_root_heading: true
             show_category_heading: false
             show_signature_annotations: true
