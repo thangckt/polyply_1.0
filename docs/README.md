@@ -35,24 +35,24 @@ force-field, molecule parameters and this program.
 [Tutorial: GROMOS Polymers](https://github.com/marrink-lab/polyply_1.0/wiki/Tutorial:-GROMOS-polymer-melts)\
 [Tutorial: PEGylated lipid bilayers](https://github.com/marrink-lab/polyply_1.0/wiki/Tutorial:-PEGylated-lipid-bilayers)\
 [Tutorial: Single-stranded DNA](https://github.com/marrink-lab/polyply_1.0/wiki/Tutorial:-Single-stranded-circular-DNA)
-## News 
-- (Feb 8, 22') **Featured Research Article in Nature Communcations.** Our article on the polyply software suite is now featured on the [Editors' Highlights](https://www.nature.com/collections/hhfigaahch) for Structural biology, biochemistry and biophysics in Nature Communications. The Editors’ Highlights pages aims to showcase the 50 best papers recently published in an area. The development team is beyond happy to receive this honor.   
-- (May 23, 22') **Fighting Cancer with polyply.** Dane et al. used polyply to setup simulations of vesicles and lipid nanodiscs (LNDs) containing PEGylated lipids, which are used as nanocarriers for cancer therapeutics. They find that LNDs are more effective in delivery likely due to their higher flexibility.  Check it out in [Nature Materials](https://www.nature.com/articles/s41563-022-01251-z). 
+## News
+- (Feb 8, 22') **Featured Research Article in Nature Communcations.** Our article on the polyply software suite is now featured on the [Editors' Highlights](https://www.nature.com/collections/hhfigaahch) for Structural biology, biochemistry and biophysics in Nature Communications. The Editors’ Highlights pages aims to showcase the 50 best papers recently published in an area. The development team is beyond happy to receive this honor.
+- (May 23, 22') **Fighting Cancer with polyply.** Dane et al. used polyply to setup simulations of vesicles and lipid nanodiscs (LNDs) containing PEGylated lipids, which are used as nanocarriers for cancer therapeutics. They find that LNDs are more effective in delivery likely due to their higher flexibility.  Check it out in [Nature Materials](https://www.nature.com/articles/s41563-022-01251-z).
 - (Jan 18, 23') **Towards whole cell simulations with polyply.** In [a perspective on whole-cell simulations](https://www.frontiersin.org/articles/10.3389/fchem.2023.1106495/full) using the Martini force field, Stevens *et al.* utilize polyply to construct the full 0.5 Mio bp chromosome of the Syn3A minimal cell. This impressive task is a good example of the power of the upcoming DNA implementation into polyply and the role of polyply in the Martini Ecosystem.
 
 ## Contributions & Support
-We are happy to accept submissions of polymer parameters to the polyply library. To submit parameters simply 
-open an [issue][bug reports]. More details on submitting parameters can be found 
-[here](https://github.com/marrink-lab/polyply_1.0/wiki/Submit-polymer-parameters). The code development of polyply is done 
+We are happy to accept submissions of polymer parameters to the polyply library. To submit parameters simply
+open an [issue][bug reports]. More details on submitting parameters can be found
+[here](https://github.com/marrink-lab/polyply_1.0/wiki/Submit-polymer-parameters). The code development of polyply is done
 on [github]. Contributions are welcome as [bug reports] and [pull requests] from everyone. We are also happy to discuss
-any of your projects or hear about how you used polyply in your research project. Let us know on the 
+any of your projects or hear about how you used polyply in your research project. Let us know on the
 [discussions board](https://github.com/marrink-lab/polyply_1.0/discussions) or by tweeting with #CG_MARTINI or #polyplyMD.
 
 ## Citation
 ```
 @article{Grunewald2022Polyply,
   title={Polyply; a python suite for facilitating simulations of (bio-) macromolecules and nanomaterials},
-  author={Gr{\"u}newald, Fabian and Alessandri, Riccardo and Kroon, Peter C and 
+  author={Gr{\"u}newald, Fabian and Alessandri, Riccardo and Kroon, Peter C and
   	  Monticelli, Luca and Souza, Paulo CT and Marrink, Siewert J},
   journal={Nature Communications},
   volume={13},
@@ -88,3 +88,4 @@ The full text of the license is available in the source repository.
 [wiki]:https://github.com/marrink-lab/polyply_1.0/wiki
 [pypi_polyply]: https://pypi.org/project/polyply/
 [pipdoc]: https://packaging.python.org/tutorials/installing-packages/#installing-packages
+
