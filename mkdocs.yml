@@ -134,17 +134,16 @@ markdown_extensions:
 plugins:
   - search
   - autorefs
-  - mkdocstrings
-  # - mkdocstrings:
-  #     handlers:
-  #       python:
-  #         options:
-  #           members_order: 'source'
-  #           docstring_style: 'sphinx'
-  #           show_source: true
-  #           show_root_heading: true
-  #           show_category_heading: false
-  #           show_signature_annotations: true
+  - mkdocstrings:
+      handlers:
+        python:
+          options:
+            members_order: 'source'
+            docstring_style: 'rst'     # sphinx | google | numpy | rst | none
+            show_source: true
+            show_root_heading: true
+            show_category_heading: false
+            show_signature_annotations: true
             # docstring_section_style: list
           # path: [.]
           # import:
