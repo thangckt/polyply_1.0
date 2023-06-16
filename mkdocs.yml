@@ -167,7 +167,7 @@ extra_css:
 ###=======================================
 ## Page tree
 nav:
-  - About: README.md
+  - About: ../README.md
   - Code Reference:
     - Models:
       - Build system:  build_system.md
