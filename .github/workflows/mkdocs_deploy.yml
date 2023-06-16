@@ -1,0 +1,34 @@
+# This is a basic workflow to help you get started with Actions
+name: mkdocs-deploy
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  build:
+    name: MkDocs Github Pages automatic deployment
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout main          # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+        uses: actions/checkout@v3
+
+      - name: Set up Python 3
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          # pip install --upgrade pip
+          pip install mkdocs mkdocstrings[python]>=0.20
+          pip install git+https://github.com/thangckt/mkdocs-material.git@master         # tabs_header_v8    master    tabs_header_yinkh
+
+      - name: MkDocs gh-deploy    # This will create `gh-pages` branch contain `mkdocs-site`
+        run: mkdocs gh-deploy --force --verbose
+
+
+
