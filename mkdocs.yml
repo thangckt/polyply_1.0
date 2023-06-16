@@ -139,7 +139,7 @@ plugins:
         python:
           options:
             members_order: 'source'
-            docstring_style: 'numpy'
+            docstring_style: 'sphinx'
             show_source: true
             show_root_heading: true
             show_category_heading: false
