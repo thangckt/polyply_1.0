@@ -51,5 +51,5 @@ from .src.gen_coords import gen_coords
 from .src.gen_seq import gen_seq
 
 import sys
-sys.path.append("..") # Adds higher directory to python modules path.
+sys.path.append("../") # Adds higher directory to python modules path.
 from .bin.polyply import main
