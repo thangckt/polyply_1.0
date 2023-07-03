@@ -51,9 +51,4 @@ from .src.gen_coords import gen_coords
 from .src.gen_seq import gen_seq
 
 
-import sys
-from pathlib        import Path
-dir_top = Path(__file__).parents[1].resolve()  
-sys.path.append(dir_top)
-
-from bin.polyply import main
+from .polyply import main
