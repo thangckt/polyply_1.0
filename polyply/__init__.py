@@ -56,4 +56,4 @@ from pathlib        import Path
 dir_top = Path(__file__).parents[1].resolve()  
 sys.path.append(dir_top)
 
-from .bin.polyply import main
+from dir_top.bin.polyply import main
